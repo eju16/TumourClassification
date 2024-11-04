@@ -1,3 +1,4 @@
+#run this to download kaggle dataset onto machine
 import os
 from keras import layers
 import zipfile
