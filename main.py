@@ -68,7 +68,7 @@ def process_scan(folder_path):
     
 
 #directory containing folders of JPEG slices for each scan
-scans_dir = "/Users/lj/TumourClassification/TumourClassification"
+scans_dir = "/Users/lj/TumourClassification/TumourClassification/BraTS-Africa/95_Glioma"
 processed_scans = []
 
 
@@ -87,6 +87,7 @@ for folder_name in os.listdir(scans_dir):
             processed_volume = process_scan(folder_path)
             print("processed volume: ",processed_volume)
             processed_scans.append(processed_volume)
+
 print("test")
 #now processed_scans holds the preprocessed 3D arrays for each scan
 
