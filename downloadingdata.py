@@ -16,6 +16,7 @@ os.makedirs(download_dir, exist_ok=True)
 #downloading the dataset
 api.dataset_download_files(dataset_name, path=download_dir, unzip=True)
 
+
 #extracting zip files (if they weren’t automatically extracted)
 for root, dirs, files in os.walk(download_dir):
     for file in files:
