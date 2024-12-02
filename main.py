@@ -72,7 +72,6 @@ scans_dir = "/Users/lj/TumourClassification/TumourClassification/BraTS-Africa/95
 processed_scans = []
 
 
-
 #process each folder in the scans directory
 for folder_name in os.listdir(scans_dir):
     #print("folder name",folder_name)
